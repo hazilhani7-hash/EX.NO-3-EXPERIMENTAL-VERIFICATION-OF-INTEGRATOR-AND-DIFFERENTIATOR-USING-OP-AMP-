@@ -36,7 +36,7 @@ T ≥ Rf Cf
 The integrator is most commonly used in analog computers and ADC and signal-wave shaping circuits.
 CIRCUIT DIAGRAM
 ## CIRCUIT DIAGRAM
-<img width="698" height="423" alt="image" src="https://github.com/user-attachments/assets/f007b349-f96e-42d3-acd3-a37119fc16fc" />
+![WhatsApp Image 2025-12-05 at 22 12 46_32e8d542](https://github.com/user-attachments/assets/ee557b22-3a38-4797-99b2-403bd2ab4f34)
 
 
 ## MODEL GRAPH
@@ -47,10 +47,8 @@ CIRCUIT DIAGRAM
 ---
 
 ## DESIGN
-
-To obtain the output of an Integrator circuit with component values R1Cf = 0.1ms , Rf = 10 R1 and Cf = 0.01 µF and also if 1 V peak square wave at 1000Hz is applied as input.
-We know the frequency at which the gain is 0 dB, fb = 1 / (2π R1 Cf) Therefore fb = 	 Since fb = 10 fa , and also the gain limiting frequency fa = 1 / (2π Rf Cf)
-We get , R1 =	and hence Rf = 	
+![WhatsApp Image 2025-12-05 at 22 18 40_7601be67](https://github.com/user-attachments/assets/b86ba264-78ef-415c-a1e8-a49671182378)
+	
 
 ## PROCEDURE
 
@@ -61,16 +59,14 @@ We get , R1 =	and hence Rf =
 
 
 ## TABULATION
-| Waveform Type | **Input Amplitude (V)** | **Input Time Period (ms)** | **Input Frequency (Hz)** | **Output Amplitude (V)** | **Output Time Period (ms)** | **Output Frequency (Hz)** |
-|----------------|--------------------------|-----------------------------|---------------------------|---------------------------|------------------------------|----------------------------|
-| Sine Wave      |                          |                             |                           |                           |                              |                            |
-| Square Wave    |                          |                             |                           |                           |                              |                            |
-		
+![WhatsApp Image 2025-12-05 at 22 13 04_38edbc3b](https://github.com/user-attachments/assets/b945e6fc-d403-48b8-8b0b-68353f14e8e1)
+
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
+![WhatsApp Image 2025-11-30 at 16 56 24_64e9fd99](https://github.com/user-attachments/assets/1c813445-59a4-4d99-ab7d-c569f95a7955)P
 
 ---
 **DATE:**  
@@ -109,7 +105,7 @@ Here the negative sign indicates that the output voltage is 180 0 out of phase w
 The differentiator is most commonly used in wave shaping circuits to detect high frequency components in an input signal and also as a rate–of–change detector in FM modulators.
 
 ## CIRCUIT DIAGRAM
-<img width="760" height="414" alt="image" src="https://github.com/user-attachments/assets/6ee3caf5-d5de-4c38-8ebe-7ff5add6c9cd" />
+![WhatsApp Image 2025-12-05 at 22 15 35_b368e4ed](https://github.com/user-attachments/assets/3f89b82f-3776-47ff-8477-2b9d0d4733ba)
 
 
 
@@ -130,15 +126,8 @@ AND
 ---
 
 ## DESIGN
+![WhatsApp Image 2025-12-05 at 22 18 40_7601be67](https://github.com/user-attachments/assets/a2815ab7-71b1-4e59-b968-08931c737b13)
 
-Design an op-amp differentiator that will differentiate an input signal with fmax = 100HZ Select fa = fmax = 100 HZ = 1 / 2πRFC1
-Let C1 = 0.1μF
-Then RF = 1 / 2π(102)(10-7)
-= 15.9KΩ
-Now choose fb = 10fa = 1 / 2πR1C1 Therefore, R1 = 1 / 2π(103)(10-7)
-= 1.59KΩ Since RFCF = R1C1
-We get, CF = (1.59*103*10-7) / 15.9*103
-= 0.01μF
 
 
 ## PROCEDURE
@@ -149,13 +138,11 @@ We get, CF = (1.59*103*10-7) / 15.9*103
 4.	The output voltage is obtained in the CRO and the input and output voltage waveforms are plotted in a graph sheet.
 
  ## TABULATION
-| Waveform Type | **Input Amplitude (V)** | **Input Time Period (ms)** | **Input Frequency (Hz)** | **Output Amplitude (V)** | **Output Time Period (ms)** | **Output Frequency (Hz)** |
-|----------------|--------------------------|-----------------------------|---------------------------|---------------------------|------------------------------|----------------------------|
-| Sine Wave      |                          |                             |                           |                           |                              |                            |
-| Square Wave    |                          |                             |                           |                           |                              |                            |
-		
+![WhatsApp Image 2025-12-05 at 22 15 54_28b703e0](https://github.com/user-attachments/assets/83e39af0-4bf1-4123-a1f3-c052880fa19f)
+
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![WhatsApp Image 2025-11-30 at 21 44 36_fc99fb73](https://github.com/user-attachments/assets/f3d82358-3e91-4b13-a8f5-ec7e70ab834f)
 
 ---
 
